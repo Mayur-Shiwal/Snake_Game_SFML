@@ -1,7 +1,7 @@
 # Snake Game using SFML in C++
 
 ## Description
-This is a simple Snake Game implemented in C++ using the SFML (Simple and Fast Multimedia Library) framework. The game allows the player to control a snake that moves around the screen, eating food to grow longer. The objective of the game is to avoid collisions with the walls and with the snake's own body while trying to achieve the highest possible score.
+This is a simple Snake Game implemented in C++ using the SFML (Simple and Fast Multimedia Library) framework. The game allows the player to control a snake that moves around the screen, eating food to grow longer. The objective of the game is to avoid collisions with the snake's own body while trying to achieve the highest possible score.
 
 ## Features
 - Classic Snake gameplay.
