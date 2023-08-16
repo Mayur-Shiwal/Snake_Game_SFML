@@ -1,0 +1,10 @@
+﻿  main.cpp
+C:\Users\Mayur\Desktop\SFML\Snake_Game\Snake_Game\main.cpp(61,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Mayur\Desktop\SFML\Snake_Game\Snake_Game\main.cpp(91,28): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Mayur\Desktop\SFML\Snake_Game\Snake_Game\main.cpp(124,49): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Mayur\Desktop\SFML\Snake_Game\Snake_Game\main.cpp(124,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Mayur\Desktop\SFML\Snake_Game\Snake_Game\main.cpp(130,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Mayur\Desktop\SFML\Snake_Game\Snake_Game\main.cpp(130,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Mayur\Desktop\SFML\Snake_Game\Snake_Game\main.cpp(137,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Mayur\Desktop\SFML\Snake_Game\Snake_Game\main.cpp(137,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Snake_Game.vcxproj -> C:\Users\Mayur\Desktop\SFML\Snake_Game\x64\Debug\Snake_Game.exe
