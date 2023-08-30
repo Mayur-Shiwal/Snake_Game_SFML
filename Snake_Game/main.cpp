@@ -8,7 +8,7 @@ int N = 40, M = 30;
 int size = 14;
 int w = size * N;
 int h = size * M;
-
+float timer = 0, delay = 0.1;
 int dir, snakeSize = 2, score = 0, highestScore = 0;
 
 struct Snake{
@@ -40,8 +40,9 @@ void update(){
         snakeSize++;
         score++;
         if (score > highestScore) highestScore = score;
-        f.x = rand() % N;
-        f.y = rand() % M;
+        if (score % 5 == 0 && score != 0) delay -= 0.01;
+        f.x = rand() % (N - 1);
+        f.y = rand() % (M - 1);
     }
 
     if (s[0].x > N-1) s[0].x = 0;
@@ -53,6 +54,7 @@ void update(){
         if (s[0].x == s[i].x && s[0].y == s[i].y) {
             snakeSize = 2;
             score = 0;
+            delay = 0.1;
         }
     }
 }
@@ -88,10 +90,9 @@ int main(){
     HighestScoreText.setString("Highest Score: 0");
 
     Clock clock;
-    float timer = 0, delay = 0.1;
 
-    f.x = rand() % (N-1);
-    f.y = rand() % (M-1);
+    f.x = rand() % (N - 1);
+    f.y = rand() % (M - 1);
 
     while (window.isOpen()){
         float time = clock.getElapsedTime().asSeconds();
