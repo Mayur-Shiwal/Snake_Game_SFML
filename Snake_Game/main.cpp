@@ -43,8 +43,6 @@ void update(){
         if (score % 5 == 0 && score != 0) delay -= 0.01;
         f.x = rand() % (N - 1);
         f.y = rand() % (M - 1);
-        if (f.x >= 0 && f.x <= 3) f.x = 4;
-        if (f.y >= 0 && f.y <= 4) f.y = 4;
     }
 
     if (s[0].x > N-1) s[0].x = 0;
